@@ -11,6 +11,11 @@ let getHomePage= async(req,res)=>{
     }
 }
 
+let getCRUD = (req,res)=>{
+    return res.send('con cho sua gau gau')
+}
+
 module.exports = {
-    getHomePage
+    getHomePage,
+    getCRUD,
 }
